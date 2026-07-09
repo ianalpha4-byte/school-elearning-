@@ -10,6 +10,7 @@
       "description": "A detailed labeled diagram of the human digestive system showing all major organs from mouth to large intestine. Suitable for class notes and revision.",
       "thumbnail": "assets/images/resources/digestive-system-thumb.jpg",
       "file": "assets/images/resources/digestive-system.jpg",
+      "fileType": "JPG",
       "fileSize": "1.2 MB",
       "dateUploaded": "2026-06-15"
     },
@@ -23,6 +24,7 @@
       "description": "Comprehensive notes covering the process of photosynthesis, light and dark reactions, factors affecting photosynthesis, and its importance to life on Earth.",
       "thumbnail": "assets/images/resources/photosynthesis-thumb.jpg",
       "file": "uploads/grade7/photosynthesis-notes.pdf",
+      "fileType": "PDF",
       "fileSize": "850 KB",
       "dateUploaded": "2026-06-10"
     },
@@ -36,6 +38,7 @@
       "description": "Term 2 algebra assignment covering linear equations, simultaneous equations, and word problems. Answer all questions and show your working.",
       "thumbnail": "assets/images/resources/math-assignment-thumb.jpg",
       "file": "uploads/grade8/math-term2-assignment.pdf",
+      "fileType": "PDF",
       "fileSize": "420 KB",
       "dateUploaded": "2026-06-20"
     },
@@ -49,6 +52,7 @@
       "description": "A detailed physical map of Kenya showing mountains, rivers, lakes, and major geographical features. Print-ready for classroom use.",
       "thumbnail": "assets/images/resources/kenya-map-thumb.jpg",
       "file": "assets/images/resources/kenya-map.jpg",
+      "fileType": "JPG",
       "fileSize": "2.1 MB",
       "dateUploaded": "2026-05-28"
     },
@@ -62,6 +66,7 @@
       "description": "A guide to writing excellent compositions including narrative, descriptive, and argumentative essays. Includes sample essays and marking rubrics.",
       "thumbnail": "assets/images/resources/english-writing-thumb.jpg",
       "file": "uploads/grade9/english-composition-guide.pdf",
+      "fileType": "PDF",
       "fileSize": "1.5 MB",
       "dateUploaded": "2026-06-05"
     },
@@ -75,6 +80,7 @@
       "description": "Labeled diagram of a plant cell showing cell wall, cell membrane, nucleus, chloroplasts, vacuole, and other organelles.",
       "thumbnail": "assets/images/resources/plant-cell-thumb.jpg",
       "file": "assets/images/resources/plant-cell.jpg",
+      "fileType": "JPG",
       "fileSize": "980 KB",
       "dateUploaded": "2026-06-12"
     },
@@ -88,6 +94,7 @@
       "description": "Mwongozo wa kuandika insha bora za Kiswahili. Inajumuisha aina za insha, muundo, na mifano ya insha zilizofaulu.",
       "thumbnail": "assets/images/resources/kiswahili-thumb.jpg",
       "file": "uploads/grade8/kiswahili-insha-guide.pdf",
+      "fileType": "PDF",
       "fileSize": "720 KB",
       "dateUploaded": "2026-06-18"
     },
@@ -101,6 +108,7 @@
       "description": "End of Term 2 revision paper for Grade 9 Integrated Science. Covers all topics taught in Term 1 and 2. Includes marking scheme.",
       "thumbnail": "assets/images/resources/revision-paper-thumb.jpg",
       "file": "uploads/grade9/science-revision-t2.pdf",
+      "fileType": "PDF",
       "fileSize": "1.8 MB",
       "dateUploaded": "2026-06-25"
     },
@@ -114,6 +122,7 @@
       "description": "Fill-in worksheet about different soil types in Kenya — sandy, loamy, clay, and their properties. Includes soil profile diagram to label.",
       "thumbnail": "assets/images/resources/soil-worksheet-thumb.jpg",
       "file": "uploads/grade7/soil-types-worksheet.pdf",
+      "fileType": "PDF",
       "fileSize": "350 KB",
       "dateUploaded": "2026-06-08"
     },
@@ -127,6 +136,7 @@
       "description": "Labeled diagram showing all major parts of a desktop computer including monitor, CPU, keyboard, mouse, and internal components.",
       "thumbnail": "assets/images/resources/computer-parts-thumb.jpg",
       "file": "assets/images/resources/computer-parts.jpg",
+      "fileType": "JPG",
       "fileSize": "1.4 MB",
       "dateUploaded": "2026-06-22"
     },
@@ -140,6 +150,7 @@
       "description": "Notes on color theory covering primary, secondary, and tertiary colors, color wheel, warm and cool colors, and color harmony principles.",
       "thumbnail": "assets/images/resources/color-theory-thumb.jpg",
       "file": "uploads/grade8/color-theory-notes.pdf",
+      "fileType": "PDF",
       "fileSize": "1.1 MB",
       "dateUploaded": "2026-06-14"
     },
@@ -153,6 +164,7 @@
       "description": "Grade 8 Mathematics end of term examination paper with marking scheme. Covers integers, fractions, geometry, and algebra.",
       "thumbnail": "assets/images/resources/math-exam-thumb.jpg",
       "file": "uploads/grade8/math-endterm-exam.pdf",
+      "fileType": "PDF",
       "fileSize": "950 KB",
       "dateUploaded": "2026-06-28"
     }

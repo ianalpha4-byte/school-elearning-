@@ -32,12 +32,12 @@ collections:
               - {label: "Grade", name: "grade", widget: "select", options: ["Grade 7", "Grade 8", "Grade 9"]}
               - {label: "Subject", name: "subject", widget: "select", options: ["Mathematics", "English", "Kiswahili", "Integrated Science", "Social Studies", "Agriculture", "Creative Arts", "Computer Studies"]}
               - {label: "Topic", name: "topic", widget: "string"}
-              - {label: "Resource Type", name: "type", widget: "select", options: ["Pictures", "Assignments", "Revision Papers", "Worksheets"]}
+              - {label: "Resource Type", name: "type", widget: "select", options: ["Pictures", "Assignments", "Revision Papers", "Worksheets", "Notes"]}
               - {label: "File", name: "file", widget: "file"}
               - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
               - {label: "File Type", name: "fileType", widget: "select", options: ["PDF", "JPG", "PNG", "DOC", "DOCX"]}
               - {label: "File Size", name: "fileSize", widget: "string", hint: "e.g. 1.2 MB"}
-              - {label: "Upload Date", name: "dateUploaded", widget: "datetime", format: "YYYY-MM-DD"}
+              - {label: "Upload Date", name: "dateUploaded", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
 
       - label: "Class Notes"
         name: "notes"
@@ -57,7 +57,7 @@ collections:
               - {label: "File", name: "file", widget: "file"}
               - {label: "File Type", name: "fileType", widget: "select", options: ["PDF", "DOC", "DOCX"]}
               - {label: "File Size", name: "fileSize", widget: "string", hint: "e.g. 2.4 MB"}
-              - {label: "Upload Date", name: "dateUploaded", widget: "datetime", format: "YYYY-MM-DD"}
+              - {label: "Upload Date", name: "dateUploaded", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
 
       - label: "Announcements"
         name: "announcements"
@@ -72,8 +72,8 @@ collections:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Content", name: "content", widget: "text"}
               - {label: "Category", name: "category", widget: "select", options: ["Academic", "Meeting", "Sports", "Events", "Examinations"]}
-              - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-              - {label: "Important", name: "important", widget: "boolean", required: false}
+              - {label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
+              - {label: "Important", name: "important", widget: "boolean", default: false, required: false}
 
       - label: "Gallery"
         name: "gallery"
