@@ -1,0 +1,98 @@
+[
+  {
+    "id": "note-001",
+    "title": "Integrated Science — Human Body Systems",
+    "subject": "Integrated Science",
+    "grade": "Grade 7",
+    "topic": "Human Body Systems",
+    "fileType": "PDF",
+    "file": "uploads/grade7/science-human-body.pdf",
+    "fileSize": "2.3 MB",
+    "dateUploaded": "2026-06-10",
+    "description": "Complete notes on all human body systems: digestive, respiratory, circulatory, excretory, nervous, and skeletal systems with labeled diagrams."
+  },
+  {
+    "id": "note-002",
+    "title": "Mathematics — Fractions and Decimals",
+    "subject": "Mathematics",
+    "grade": "Grade 7",
+    "topic": "Fractions and Decimals",
+    "fileType": "PDF",
+    "file": "uploads/grade7/math-fractions-decimals.pdf",
+    "fileSize": "1.1 MB",
+    "dateUploaded": "2026-06-12",
+    "description": "Detailed notes on operations with fractions, converting fractions to decimals, and solving word problems involving fractions and decimals."
+  },
+  {
+    "id": "note-003",
+    "title": "English — Parts of Speech",
+    "subject": "English",
+    "grade": "Grade 7",
+    "topic": "Grammar",
+    "fileType": "PDF",
+    "file": "uploads/grade7/english-parts-of-speech.pdf",
+    "fileSize": "890 KB",
+    "dateUploaded": "2026-06-08",
+    "description": "Notes covering all eight parts of speech: nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections with examples."
+  },
+  {
+    "id": "note-004",
+    "title": "Social Studies — Government of Kenya",
+    "subject": "Social Studies",
+    "grade": "Grade 8",
+    "topic": "Government and Leadership",
+    "fileType": "PDF",
+    "file": "uploads/grade8/social-studies-government.pdf",
+    "fileSize": "1.5 MB",
+    "dateUploaded": "2026-06-15",
+    "description": "Notes on the structure of the Kenyan government: national and county governments, arms of government, and the Constitution of Kenya 2010."
+  },
+  {
+    "id": "note-005",
+    "title": "Kiswahili — Sarufi: Ngeli za Nomino",
+    "subject": "Kiswahili",
+    "grade": "Grade 8",
+    "topic": "Sarufi",
+    "fileType": "PDF",
+    "file": "uploads/grade8/kiswahili-ngeli.pdf",
+    "fileSize": "780 KB",
+    "dateUploaded": "2026-06-18",
+    "description": "Maelezo kamili kuhusu ngeli za nomino katika lugha ya Kiswahili. Inajumuisha mifano na mazoezi ya kufanyia mazoezi."
+  },
+  {
+    "id": "note-006",
+    "title": "Integrated Science — Electricity and Magnetism",
+    "subject": "Integrated Science",
+    "grade": "Grade 9",
+    "topic": "Electricity",
+    "fileType": "PDF",
+    "file": "uploads/grade9/science-electricity.pdf",
+    "fileSize": "2.0 MB",
+    "dateUploaded": "2026-06-20",
+    "description": "Notes on electric circuits, Ohm's law, series and parallel circuits, electromagnets, and practical applications of electricity."
+  },
+  {
+    "id": "note-007",
+    "title": "Agriculture — Crop Production",
+    "subject": "Agriculture",
+    "grade": "Grade 8",
+    "topic": "Crop Husbandry",
+    "fileType": "DOCX",
+    "file": "uploads/grade8/agriculture-crop-production.docx",
+    "fileSize": "1.3 MB",
+    "dateUploaded": "2026-06-22",
+    "description": "Notes covering land preparation, planting, crop maintenance, harvesting, and post-harvest handling. Includes common crops grown in Kenya."
+  },
+  {
+    "id": "note-008",
+    "title": "Mathematics — Quadratic Equations",
+    "subject": "Mathematics",
+    "grade": "Grade 9",
+    "topic": "Algebra",
+    "fileType": "PDF",
+    "file": "uploads/grade9/math-quadratic-equations.pdf",
+    "fileSize": "1.0 MB",
+    "dateUploaded": "2026-06-25",
+    "description": "Complete notes on solving quadratic equations by factorisation, completing the square, and using the quadratic formula. Includes worked examples."
+  }
+]

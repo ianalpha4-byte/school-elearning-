@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Photo gallery of Utugi Junior Secondary School - classrooms, sports, events, and campus life.">
+  <title>Gallery | Utugi Junior Secondary School</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/resources.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="../index.html" class="nav-logo">
+        <img src="../assets/images/favicon.svg" alt="Logo" >
+        <div class="logo-text">Utugi JSS<span>Junior Secondary School</span></div>
+      </a>
+      <div class="nav-menu" id="navMenu">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <a href="../resources.html">Resources</a>
+        <a href="../notes.html">Notes</a>
+        <a href="../announcements.html">Announcements</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <div class="nav-cta"><a href="admissions.html" class="btn btn-primary btn-sm">Apply Now</a></div>
+      </div>
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="../index.html">Home</a><span class="separator">/</span><span class="current">Gallery</span></div>
+      <h1>Photo Gallery</h1>
+      <p>Explore life at Utugi JSS through our photo gallery. Click any image to view it in full size.</p>
+    </div>
+  </section>
+
+  <!-- Filters Section -->
+  <section class="filters-section" id="filtersSection">
+    <div class="container">
+      <div class="filters-row">
+        <div class="filter-group">
+          <label for="filterGrade">Grade:</label>
+          <select id="filterGrade" class="filter-select">
+            <option value="all">All Grades</option>
+            <option value="Grade 7">Grade 7</option>
+            <option value="Grade 8">Grade 8</option>
+            <option value="Grade 9">Grade 9</option>
+          </select>
+        </div>
+        
+        <div class="filter-group">
+          <label for="filterSubject">Subject:</label>
+          <select id="filterSubject" class="filter-select">
+            <option value="all">All Subjects</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="English">English</option>
+            <option value="Kiswahili">Kiswahili</option>
+            <option value="Integrated Science">Integrated Science</option>
+            <option value="Social Studies">Social Studies</option>
+            <option value="Agriculture">Agriculture</option>
+            <option value="Creative Arts">Creative Arts</option>
+            <option value="Computer Studies">Computer Studies</option>
+          </select>
+        </div>
+
+        <div class="search-container" style="margin: 0 0 0 auto; max-width: 300px;">
+          <div class="search-bar search-bar--light" style="padding: 0;">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="gallerySearch" placeholder="Search images...">
+          </div>
+        </div>
+        
+        <button id="filterClear" class="filters-clear">Clear</button>
+      </div>
+      
+      <div class="results-info mt-3" id="resultsInfo">
+        Loading images...
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <main class="section bg-light">
+    <div class="container">
+      <div class="gallery-edu-grid" id="galleryEduGrid">
+        <!-- Gallery items will be loaded here via JS -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Enhanced Lightbox -->
+  <div class="lightbox-enhanced" id="lightboxEnhanced">
+    <button class="lightbox-enhanced__close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-enhanced__nav lightbox-enhanced__nav--prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
+    
+    <div class="lightbox-enhanced__content">
+      <img src="" alt="Gallery Image" class="lightbox-enhanced__img" id="lightboxImg">
+      <div class="lightbox-enhanced__info">
+        <h3 class="lightbox-enhanced__title" id="lightboxTitle"></h3>
+        <p class="lightbox-enhanced__subject" id="lightboxSubject"></p>
+        <div class="lightbox-enhanced__actions">
+          <button id="lightboxDownload"><i class="fa-solid fa-download"></i> Download</button>
+          <button id="lightboxPrint"><i class="fa-solid fa-print"></i> Print</button>
+        </div>
+      </div>
+    </div>
+    
+    <button class="lightbox-enhanced__nav lightbox-enhanced__nav--next" id="lightboxNext" aria-label="Next">&#8250;</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo-text">Utugi Junior Secondary School</div>
+          <p>A premier CBC curriculum school dedicated to nurturing future leaders.</p>
+          <div class="social-links"><a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-youtube"></i></a></div>
+        </div>
+        <div class="footer-links"><h4>Quick Links</h4><a href="about.html">About Us</a><a href="academics.html">Academics</a><a href="admissions.html">Admissions</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div>
+        <div class="footer-links"><h4>Resources</h4><a href="../resources.html">Learning Resources</a><a href="../notes.html">Class Notes</a><a href="../announcements.html">Announcements</a></div>
+        <div class="footer-contact"><h4>Contact Us</h4><p><i class="fa-solid fa-location-dot"></i> Utugi, Nyeri County, Kenya</p><p><i class="fa-solid fa-phone"></i> +254 700 000 000</p><p><i class="fa-solid fa-envelope"></i> info@utugijss.ac.ke</p></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; <span id="currentYear">2026</span> Utugi Junior Secondary School. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <script src="../assets/js/search.js"></script>
+  <script src="../assets/js/gallery-enhanced.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

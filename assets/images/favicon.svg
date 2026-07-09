@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="64" height="64">
+  <circle cx="50" cy="50" r="48" fill="#1a3a5c" stroke="#f5a623" stroke-width="3"/>
+  <text x="50" y="38" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="20" font-weight="bold">U</text>
+  <text x="50" y="58" text-anchor="middle" fill="#f5a623" font-family="Arial,sans-serif" font-size="12" font-weight="bold">JSS</text>
+  <text x="50" y="72" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="7">EST. 2011</text>
+</svg>

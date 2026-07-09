@@ -1,0 +1,91 @@
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'CMS: Create {{collection}} “{{slug}}”'
+    update: 'CMS: Update {{collection}} “{{slug}}”'
+    delete: 'CMS: Delete {{collection}} “{{slug}}”'
+    uploadMedia: 'CMS: Upload “{{path}}”'
+    deleteMedia: 'CMS: Delete “{{path}}”'
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+logo_url: "/assets/images/favicon.svg"
+
+collections:
+  - name: "content"
+    label: "Website Data"
+    files:
+      - label: "Learning Resources"
+        name: "resources"
+        file: "data/resources.json"
+        description: "Manage learning resources (pictures, assignments, worksheets)"
+        fields:
+          - label: "Resources"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string", hint: "Unique ID e.g. res-123"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Grade", name: "grade", widget: "select", options: ["Grade 7", "Grade 8", "Grade 9"]}
+              - {label: "Subject", name: "subject", widget: "select", options: ["Mathematics", "English", "Kiswahili", "Integrated Science", "Social Studies", "Agriculture", "Creative Arts", "Computer Studies"]}
+              - {label: "Topic", name: "topic", widget: "string"}
+              - {label: "Resource Type", name: "type", widget: "select", options: ["Pictures", "Assignments", "Revision Papers", "Worksheets"]}
+              - {label: "File", name: "file", widget: "file"}
+              - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+              - {label: "File Type", name: "fileType", widget: "select", options: ["PDF", "JPG", "PNG", "DOC", "DOCX"]}
+              - {label: "File Size", name: "fileSize", widget: "string", hint: "e.g. 1.2 MB"}
+              - {label: "Upload Date", name: "dateUploaded", widget: "datetime", format: "YYYY-MM-DD"}
+
+      - label: "Class Notes"
+        name: "notes"
+        file: "data/notes.json"
+        description: "Manage class notes (PDFs, Word docs)"
+        fields:
+          - label: "Notes"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Grade", name: "grade", widget: "select", options: ["Grade 7", "Grade 8", "Grade 9"]}
+              - {label: "Subject", name: "subject", widget: "select", options: ["Mathematics", "English", "Kiswahili", "Integrated Science", "Social Studies", "Agriculture", "Creative Arts", "Computer Studies"]}
+              - {label: "Topic", name: "topic", widget: "string"}
+              - {label: "File", name: "file", widget: "file"}
+              - {label: "File Type", name: "fileType", widget: "select", options: ["PDF", "DOC", "DOCX"]}
+              - {label: "File Size", name: "fileSize", widget: "string", hint: "e.g. 2.4 MB"}
+              - {label: "Upload Date", name: "dateUploaded", widget: "datetime", format: "YYYY-MM-DD"}
+
+      - label: "Announcements"
+        name: "announcements"
+        file: "data/announcements.json"
+        description: "Manage school announcements and news"
+        fields:
+          - label: "Announcements"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "text"}
+              - {label: "Category", name: "category", widget: "select", options: ["Academic", "Meeting", "Sports", "Events", "Examinations"]}
+              - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+              - {label: "Important", name: "important", widget: "boolean", required: false}
+
+      - label: "Gallery"
+        name: "gallery"
+        file: "data/gallery.json"
+        description: "Manage educational gallery images"
+        fields:
+          - label: "Images"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subject", name: "subject", widget: "string"}
+              - {label: "Grade", name: "grade", widget: "select", options: ["Grade 7", "Grade 8", "Grade 9", "All Grades"]}
+              - {label: "Topic", name: "topic", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Utugi Junior Secondary School - A leading CBC curriculum school in Kenya providing quality education for Grade 7, 8 and 9 students. Nurturing future leaders through academic excellence.">
+  <meta name="keywords" content="Utugi School, Junior Secondary, CBC Kenya, Grade 7, Grade 8, Grade 9, Kenyan school, CBC curriculum">
+  <meta name="author" content="Utugi Junior Secondary School">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Utugi Junior Secondary School | Nurturing Future Leaders">
+  <meta property="og:description" content="A premier CBC curriculum school in Kenya offering holistic education for junior secondary students.">
+  <meta property="og:type" content="website">
+  <title>Utugi Junior Secondary School | Nurturing Future Leaders</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/resources.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/images/favicon.svg" alt="Utugi School Logo">
+        <div class="logo-text">
+          Utugi JSS
+          <span>Junior Secondary School</span>
+        </div>
+      </a>
+      <div class="nav-menu" id="navMenu">
+        <a href="index.html" class="active">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/academics.html">Academics</a>
+        <a href="resources.html">Resources</a>
+        <a href="notes.html">Notes</a>
+        <a href="announcements.html">Announcements</a>
+        <a href="pages/gallery.html">Gallery</a>
+        <a href="pages/contact.html">Contact</a>
+        <div class="nav-cta">
+          <a href="pages/admissions.html" class="btn btn-primary btn-sm">Apply Now</a>
+        </div>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <img src="assets/images/hero/school-picture.jpeg" alt="Utugi School Compound" class="hero-bg" loading="eager">
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-badge">🎓 CBC Curriculum | Junior Secondary</span>
+        <h1>Welcome to <span class="highlight">Utugi</span> Junior Secondary School</h1>
+        <p class="hero-motto">"Knowledge, Integrity, Excellence"</p>
+        <p>Empowering young minds through the Competency-Based Curriculum. We nurture tomorrow's leaders with quality education, strong values, and holistic development in a supportive learning environment.</p>
+        <div class="hero-buttons">
+          <a href="pages/admissions.html" class="btn btn-accent btn-lg">Admissions</a>
+          <a href="pages/contact.html" class="btn btn-outline btn-lg">Contact Us</a>
+          <a href="pages/academics.html" class="btn btn-outline btn-lg">Academics</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DIGITAL LEARNING RESOURCE CENTRE CTA ========== -->
+  <section class="resource-cta" id="resourceCta">
+    <div class="container">
+      <div class="resource-cta__icon"><i class="fa-solid fa-laptop-file"></i></div>
+      <h2>Digital Learning Resource Centre</h2>
+      <p>Access our comprehensive library of educational materials including pictures, notes, assignments, revision papers, and worksheets from home.</p>
+      <div class="resource-cta__links">
+        <a href="resources.html" class="resource-cta__link resource-cta__link--primary">
+          <i class="fa-solid fa-magnifying-glass"></i> Browse Resources
+        </a>
+        <a href="notes.html" class="resource-cta__link resource-cta__link--secondary">
+          <i class="fa-solid fa-book"></i> View Notes
+        </a>
+      </div>
+      <div class="resource-stats">
+        <div class="resource-stat">
+          <div class="resource-stat__number" data-count="150">0</div>
+          <div class="resource-stat__label">Learning Resources</div>
+        </div>
+        <div class="resource-stat">
+          <div class="resource-stat__number" data-count="45">0</div>
+          <div class="resource-stat__label">Class Notes</div>
+        </div>
+        <div class="resource-stat">
+          <div class="resource-stat__number" data-count="8">0</div>
+          <div class="resource-stat__label">Subjects Covered</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ANNOUNCEMENTS ========== -->
+  <section class="section" id="announcements">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Latest Announcements</h2>
+        <p>Stay updated with the latest news and important dates from our school community.</p>
+      </div>
+      <div class="home-announcements-grid" id="homeAnnouncementsGrid">
+        <!-- Announcements loaded dynamically via JS -->
+      </div>
+      <div style="text-align:center; margin-top:var(--space-xl)">
+        <a href="announcements.html" class="btn btn-outline">View All Announcements</a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ========== WHY CHOOSE US ========== -->
+  <section class="section why-choose" id="whyChoose">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Why Choose Utugi JSS?</h2>
+        <p>We offer a nurturing environment where every learner thrives academically and personally.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="card feature-card animate-on-scroll">
+          <div class="icon"><i class="fa-solid fa-book-open"></i></div>
+          <h4>CBC Excellence</h4>
+          <p>Fully aligned with the Competency-Based Curriculum for holistic learner development.</p>
+        </div>
+        <div class="card feature-card animate-on-scroll">
+          <div class="icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <h4>Qualified Staff</h4>
+          <p>TSC-registered teachers trained in CBC pedagogy and modern teaching methods.</p>
+        </div>
+        <div class="card feature-card animate-on-scroll">
+          <div class="icon"><i class="fa-solid fa-medal"></i></div>
+          <h4>Co-Curricular</h4>
+          <p>Rich sports, music, drama, clubs and societies for all-round learner development.</p>
+        </div>
+        <div class="card feature-card animate-on-scroll">
+          <div class="icon"><i class="fa-solid fa-school"></i></div>
+          <h4>Modern Facilities</h4>
+          <p>Well-equipped classrooms, science labs, library, and computer room for quality learning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CBC CURRICULUM HIGHLIGHT ========== -->
+  <section class="section cbc-section" id="cbcHighlight">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>CBC Curriculum</h2>
+        <p>Preparing well-rounded learners ready for the challenges of the 21st century.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="cbc-feature animate-on-scroll">
+          <div class="cbc-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <div>
+            <h4>Competency-Based Learning</h4>
+            <p>Focus on developing core competencies: communication, critical thinking, creativity, citizenship, collaboration, digital literacy, and self-efficacy.</p>
+          </div>
+        </div>
+        <div class="cbc-feature animate-on-scroll">
+          <div class="cbc-icon"><i class="fa-solid fa-microscope"></i></div>
+          <div>
+            <h4>STEM Integration</h4>
+            <p>Hands-on science, technology, engineering, and mathematics experiences for all Grade 7-9 learners.</p>
+          </div>
+        </div>
+        <div class="cbc-feature animate-on-scroll">
+          <div class="cbc-icon"><i class="fa-solid fa-palette"></i></div>
+          <div>
+            <h4>Arts & Sports Pathway</h4>
+            <p>Creative arts, performing arts, and sports programmes that nurture talent and passion.</p>
+          </div>
+        </div>
+        <div class="cbc-feature animate-on-scroll">
+          <div class="cbc-icon"><i class="fa-solid fa-globe"></i></div>
+          <div>
+            <h4>Values-Based Education</h4>
+            <p>Strong emphasis on Kenyan values, patriotism, integrity, and community service.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY PREVIEW ========== -->
+  <section class="section" id="galleryPreview">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>School Life</h2>
+        <p>Catch a glimpse of the vibrant learning environment at Utugi JSS.</p>
+      </div>
+      <div class="gallery-preview">
+        <div class="grid">
+          <div class="gallery-item animate-on-scroll">
+            <img src="assets/images/gallery/class-grade7.png" alt="Students learning in classroom" loading="lazy">
+            <div class="gallery-overlay"><span>Classroom Learning</span></div>
+          </div>
+          <div class="gallery-item animate-on-scroll">
+            <img src="assets/images/gallery/sports-football.png" alt="Sports activities" loading="lazy">
+            <div class="gallery-overlay"><span>Sports Day</span></div>
+          </div>
+          <div class="gallery-item animate-on-scroll" style="background:linear-gradient(135deg,#1a3a5c,#2d8f4e);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-heading);font-size:1.2rem;position:relative;overflow:hidden;">
+            <img src="assets/images/gallery/drama-festival.png" alt="School Events" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0.8;">
+            <span style="position:relative;z-index:1;background:rgba(0,0,0,0.5);padding:0.5rem 1rem;border-radius:var(--radius-md);"><i class="fa-solid fa-camera"></i> School Events</span>
+          </div>
+          <div class="gallery-item animate-on-scroll" style="background:linear-gradient(135deg,#2d8f4e,#f5a623);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-heading);font-size:1.2rem;position:relative;overflow:hidden;">
+            <img src="assets/images/gallery/admin-block.png" alt="Our Campus" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0.8;">
+            <span style="position:relative;z-index:1;background:rgba(0,0,0,0.5);padding:0.5rem 1rem;border-radius:var(--radius-md);"><i class="fa-solid fa-school"></i> Our Campus</span>
+          </div>
+          <div class="gallery-item animate-on-scroll" style="background:linear-gradient(135deg,#f5a623,#1a3a5c);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-heading);font-size:1.2rem;position:relative;overflow:hidden;">
+            <img src="assets/images/gallery/library.png" alt="Library" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0.8;">
+            <span style="position:relative;z-index:1;background:rgba(0,0,0,0.5);padding:0.5rem 1rem;border-radius:var(--radius-md);"><i class="fa-solid fa-book-open"></i> Library</span>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:var(--space-2xl)">
+        <a href="pages/gallery.html" class="btn btn-primary">View Full Gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="section bg-light" id="testimonials">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>What Parents Say</h2>
+        <p>Hear from parents and guardians who trust us with their children's education.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card testimonial-card animate-on-scroll">
+          <p>"Utugi JSS has transformed my daughter's academic life. The CBC approach and caring teachers make all the difference."</p>
+          <div class="testimonial-author">
+            <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--secondary));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;">MW</div>
+            <div>
+              <h4>Mary Wanjiku</h4>
+              <span>Parent, Grade 8 Student</span>
+            </div>
+          </div>
+        </div>
+        <div class="card testimonial-card animate-on-scroll">
+          <p>"The school's commitment to holistic education is evident. My son excels both in academics and in football thanks to their balanced approach."</p>
+          <div class="testimonial-author">
+            <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,var(--secondary),var(--accent));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;">JK</div>
+            <div>
+              <h4>James Kamau</h4>
+              <span>Parent, Grade 7 Student</span>
+            </div>
+          </div>
+        </div>
+        <div class="card testimonial-card animate-on-scroll">
+          <p>"Clean facilities, disciplined environment, and excellent teachers. I highly recommend Utugi JSS to every parent in the region."</p>
+          <div class="testimonial-author">
+            <div style="width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--primary));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;">AN</div>
+            <div>
+              <h4>Alice Njeri</h4>
+              <span>Parent, Grade 9 Student</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRINCIPAL MESSAGE ========== -->
+  <section class="section principal-section" id="principalMessage">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>From the Principal's Desk</h2>
+      </div>
+      <div class="principal-content animate-on-scroll">
+        <div class="principal-img">
+          <img src="assets/images/staff/principal.png" alt="School Principal" loading="lazy">
+        </div>
+        <div class="principal-text">
+          <h3>Welcome to Our School</h3>
+          <div class="divider"></div>
+          <p>On behalf of the entire Utugi Junior Secondary School community, I warmly welcome you to our institution. Since our establishment, we have been committed to providing quality education that nurtures the whole child — intellectually, morally, socially, and physically.</p>
+          <p>Under the CBC framework, we strive to develop competent, confident young Kenyans who are ready to contribute positively to society. Our dedicated team of teachers works tirelessly to ensure every learner reaches their full potential.</p>
+          <p>We believe in partnerships with parents and the community to create the best learning outcomes. I invite you to visit us and experience the Utugi difference.</p>
+          <p class="name">— Mr. John Mwangi, Principal</p>
+          <a href="pages/about.html" class="btn btn-primary" style="margin-top:var(--space-md)">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo-text">Utugi Junior Secondary School</div>
+          <p>A premier CBC curriculum school dedicated to nurturing future leaders through quality education, strong values, and holistic development. Serving Grade 7, 8, and 9 learners.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter/X"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="pages/about.html">About Us</a>
+          <a href="pages/academics.html">Academics</a>
+          <a href="pages/admissions.html">Admissions</a>
+          <a href="pages/gallery.html">Gallery</a>
+          <a href="pages/contact.html">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <a href="resources.html">Learning Resources</a>
+          <a href="notes.html">Class Notes</a>
+          <a href="announcements.html">Announcements</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p><i class="fa-solid fa-location-dot"></i> Utugi, Nyeri County, Kenya</p>
+          <p><i class="fa-solid fa-phone"></i> +254 700 000 000</p>
+          <p><i class="fa-solid fa-envelope"></i> info@utugijss.ac.ke</p>
+          <p><i class="fa-regular fa-clock"></i> Mon–Fri: 7:00 AM – 5:00 PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Utugi Junior Secondary School. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/announcements.js"></script>
+  <script src="assets/js/main.js"></script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Load announcements dynamically on homepage
+      if (typeof loadHomeAnnouncements === 'function') {
+        loadHomeAnnouncements();
+      }
+    });
+
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>
