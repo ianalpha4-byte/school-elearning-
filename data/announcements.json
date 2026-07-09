@@ -1,58 +1,60 @@
-[
-  {
-    "id": "ann-001",
-    "title": "Term 2 Opening Date",
-    "content": "All students are expected to report for Term 2 on Monday, 19th May 2026. New students should come with their admission letters, birth certificates, and previous school leaving certificates. School fees should be paid before reporting day. No student will be allowed into class without full payment or a payment plan.",
-    "date": "2026-05-10",
-    "category": "Academic",
-    "important": true
-  },
-  {
-    "id": "ann-002",
-    "title": "Annual Parents' Meeting",
-    "content": "The Annual General Meeting for all parents and guardians will be held on Saturday, 25th May 2026, starting at 9:00 AM in the school hall. Agenda: academic progress report, school development plan, fee structure review, and election of PTA officials. All parents are encouraged to attend.",
-    "date": "2026-05-15",
-    "category": "Meeting",
-    "important": true
-  },
-  {
-    "id": "ann-003",
-    "title": "Inter-School Sports Championship",
-    "content": "Our athletics and football teams will participate in the Sub-County Sports Championship on 1st June 2026 at Nyeri Stadium. Selected students should report to the sports office for training schedules. Parents are welcome to come and cheer our young champions!",
-    "date": "2026-05-20",
-    "category": "Sports",
-    "important": false
-  },
-  {
-    "id": "ann-004",
-    "title": "Mid-Term Examination Timetable",
-    "content": "Mid-term examinations for all grades will begin on Monday, 9th June 2026 and end on Friday, 13th June 2026. The detailed timetable is available at the staffroom notice board and will be shared with class teachers. Students are advised to begin revision early.",
-    "date": "2026-05-25",
-    "category": "Examinations",
-    "important": true
-  },
-  {
-    "id": "ann-005",
-    "title": "Music and Drama Festival",
-    "content": "Utugi JSS will host the Zonal Music and Drama Festival on 20th June 2026. Our students have been rehearsing and will participate in choral verse, plays, solo performances, and traditional dances. Wish them well!",
-    "date": "2026-06-01",
-    "category": "Events",
-    "important": false
-  },
-  {
-    "id": "ann-006",
-    "title": "Holiday Homework Collection",
-    "content": "All holiday homework must be submitted to the respective class teachers during the first week of Term 2. Late submissions will attract penalties. Students who have not completed their assignments should consult their teachers for guidance.",
-    "date": "2026-06-05",
-    "category": "Academic",
-    "important": false
-  },
-  {
-    "id": "ann-007",
-    "title": "Digital Learning Resources Now Available",
-    "content": "We are excited to announce the launch of our school's Digital Learning Resource Centre! Students can now access notes, revision papers, educational pictures, and assignments online through our website. Visit the Resources section to browse materials by grade and subject.",
-    "date": "2026-07-01",
-    "category": "Academic",
-    "important": true
-  }
-]
+{
+  "items": [
+    {
+      "id": "ann-001",
+      "title": "Term 2 Opening Date",
+      "content": "All students are expected to report for Term 2 on Monday, 19th May 2026. New students should come with their admission letters, birth certificates, and previous school leaving certificates. School fees should be paid before reporting day. No student will be allowed into class without full payment or a payment plan.",
+      "date": "2026-05-10",
+      "category": "Academic",
+      "important": true
+    },
+    {
+      "id": "ann-002",
+      "title": "Annual Parents' Meeting",
+      "content": "The Annual General Meeting for all parents and guardians will be held on Saturday, 25th May 2026, starting at 9:00 AM in the school hall. Agenda: academic progress report, school development plan, fee structure review, and election of PTA officials. All parents are encouraged to attend.",
+      "date": "2026-05-15",
+      "category": "Meeting",
+      "important": true
+    },
+    {
+      "id": "ann-003",
+      "title": "Inter-School Sports Championship",
+      "content": "Our athletics and football teams will participate in the Sub-County Sports Championship on 1st June 2026 at Nyeri Stadium. Selected students should report to the sports office for training schedules. Parents are welcome to come and cheer our young champions!",
+      "date": "2026-05-20",
+      "category": "Sports",
+      "important": false
+    },
+    {
+      "id": "ann-004",
+      "title": "Mid-Term Examination Timetable",
+      "content": "Mid-term examinations for all grades will begin on Monday, 9th June 2026 and end on Friday, 13th June 2026. The detailed timetable is available at the staffroom notice board and will be shared with class teachers. Students are advised to begin revision early.",
+      "date": "2026-05-25",
+      "category": "Examinations",
+      "important": true
+    },
+    {
+      "id": "ann-005",
+      "title": "Music and Drama Festival",
+      "content": "Utugi JSS will host the Zonal Music and Drama Festival on 20th June 2026. Our students have been rehearsing and will participate in choral verse, plays, solo performances, and traditional dances. Wish them well!",
+      "date": "2026-06-01",
+      "category": "Events",
+      "important": false
+    },
+    {
+      "id": "ann-006",
+      "title": "Holiday Homework Collection",
+      "content": "All holiday homework must be submitted to the respective class teachers during the first week of Term 2. Late submissions will attract penalties. Students who have not completed their assignments should consult their teachers for guidance.",
+      "date": "2026-06-05",
+      "category": "Academic",
+      "important": false
+    },
+    {
+      "id": "ann-007",
+      "title": "Digital Learning Resources Now Available",
+      "content": "We are excited to announce the launch of our school's Digital Learning Resource Centre! Students can now access notes, revision papers, educational pictures, and assignments online through our website. Visit the Resources section to browse materials by grade and subject.",
+      "date": "2026-07-01",
+      "category": "Academic",
+      "important": true
+    }
+  ]
+}

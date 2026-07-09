@@ -1,102 +1,104 @@
-[
-  {
-    "id": "img-001",
-    "title": "Human Heart Diagram",
-    "subject": "Integrated Science",
-    "grade": "Grade 7",
-    "topic": "Human Body Systems",
-    "image": "assets/images/resources/human-heart.jpg",
-    "description": "Detailed labeled diagram of the human heart showing chambers, valves, and major blood vessels.",
-    "dateUploaded": "2026-06-10"
-  },
-  {
-    "id": "img-002",
-    "title": "Digestive System Diagram",
-    "subject": "Integrated Science",
-    "grade": "Grade 7",
-    "topic": "Human Body Systems",
-    "image": "assets/images/resources/digestive-system.jpg",
-    "description": "Complete diagram of the human digestive system from mouth to large intestine with labels.",
-    "dateUploaded": "2026-06-10"
-  },
-  {
-    "id": "img-003",
-    "title": "Plant Cell Structure",
-    "subject": "Integrated Science",
-    "grade": "Grade 7",
-    "topic": "Cell Biology",
-    "image": "assets/images/resources/plant-cell.jpg",
-    "description": "Labeled diagram of a plant cell showing cell wall, chloroplasts, nucleus, vacuole, and other organelles.",
-    "dateUploaded": "2026-06-12"
-  },
-  {
-    "id": "img-004",
-    "title": "Mount Kenya",
-    "subject": "Social Studies",
-    "grade": "Grade 7",
-    "topic": "Physical Geography",
-    "image": "assets/images/resources/mount-kenya.jpg",
-    "description": "Photograph of Mount Kenya, the highest mountain in Kenya and second-highest in Africa at 5,199 metres.",
-    "dateUploaded": "2026-06-14"
-  },
-  {
-    "id": "img-005",
-    "title": "Physical Map of Kenya",
-    "subject": "Social Studies",
-    "grade": "Grade 7",
-    "topic": "Physical Geography",
-    "image": "assets/images/resources/kenya-map.jpg",
-    "description": "Physical map showing Kenya's mountains, rivers, lakes, Rift Valley, and coastal features.",
-    "dateUploaded": "2026-05-28"
-  },
-  {
-    "id": "img-006",
-    "title": "Parts of a Computer",
-    "subject": "Computer Studies",
-    "grade": "Grade 7",
-    "topic": "Computer Hardware",
-    "image": "assets/images/resources/computer-parts.jpg",
-    "description": "Labeled diagram of a desktop computer showing monitor, CPU, keyboard, mouse, and internal components.",
-    "dateUploaded": "2026-06-22"
-  },
-  {
-    "id": "img-007",
-    "title": "Electric Circuit Diagram",
-    "subject": "Integrated Science",
-    "grade": "Grade 9",
-    "topic": "Electricity",
-    "image": "assets/images/resources/electric-circuit.jpg",
-    "description": "Diagram showing a simple electric circuit with battery, switch, bulb, and connecting wires.",
-    "dateUploaded": "2026-06-20"
-  },
-  {
-    "id": "img-008",
-    "title": "Color Wheel",
-    "subject": "Creative Arts",
-    "grade": "Grade 8",
-    "topic": "Visual Arts",
-    "image": "assets/images/resources/color-wheel.jpg",
-    "description": "Color wheel showing primary, secondary, and tertiary colors with warm and cool color sections.",
-    "dateUploaded": "2026-06-14"
-  },
-  {
-    "id": "img-009",
-    "title": "Soil Profile Layers",
-    "subject": "Agriculture",
-    "grade": "Grade 7",
-    "topic": "Soil Science",
-    "image": "assets/images/resources/soil-profile.jpg",
-    "description": "Cross-section diagram of soil profile showing topsoil, subsoil, parent rock, and bedrock layers.",
-    "dateUploaded": "2026-06-08"
-  },
-  {
-    "id": "img-010",
-    "title": "Water Cycle Diagram",
-    "subject": "Integrated Science",
-    "grade": "Grade 8",
-    "topic": "Water and Environment",
-    "image": "assets/images/resources/water-cycle.jpg",
-    "description": "Diagram illustrating the water cycle: evaporation, condensation, precipitation, collection, and transpiration.",
-    "dateUploaded": "2026-06-16"
-  }
-]
+{
+  "items": [
+    {
+      "id": "img-001",
+      "title": "Human Heart Diagram",
+      "subject": "Integrated Science",
+      "grade": "Grade 7",
+      "topic": "Human Body Systems",
+      "image": "assets/images/resources/human-heart.jpg",
+      "description": "Detailed labeled diagram of the human heart showing chambers, valves, and major blood vessels.",
+      "dateUploaded": "2026-06-10"
+    },
+    {
+      "id": "img-002",
+      "title": "Digestive System Diagram",
+      "subject": "Integrated Science",
+      "grade": "Grade 7",
+      "topic": "Human Body Systems",
+      "image": "assets/images/resources/digestive-system.jpg",
+      "description": "Complete diagram of the human digestive system from mouth to large intestine with labels.",
+      "dateUploaded": "2026-06-10"
+    },
+    {
+      "id": "img-003",
+      "title": "Plant Cell Structure",
+      "subject": "Integrated Science",
+      "grade": "Grade 7",
+      "topic": "Cell Biology",
+      "image": "assets/images/resources/plant-cell.jpg",
+      "description": "Labeled diagram of a plant cell showing cell wall, chloroplasts, nucleus, vacuole, and other organelles.",
+      "dateUploaded": "2026-06-12"
+    },
+    {
+      "id": "img-004",
+      "title": "Mount Kenya",
+      "subject": "Social Studies",
+      "grade": "Grade 7",
+      "topic": "Physical Geography",
+      "image": "assets/images/resources/mount-kenya.jpg",
+      "description": "Photograph of Mount Kenya, the highest mountain in Kenya and second-highest in Africa at 5,199 metres.",
+      "dateUploaded": "2026-06-14"
+    },
+    {
+      "id": "img-005",
+      "title": "Physical Map of Kenya",
+      "subject": "Social Studies",
+      "grade": "Grade 7",
+      "topic": "Physical Geography",
+      "image": "assets/images/resources/kenya-map.jpg",
+      "description": "Physical map showing Kenya's mountains, rivers, lakes, Rift Valley, and coastal features.",
+      "dateUploaded": "2026-05-28"
+    },
+    {
+      "id": "img-006",
+      "title": "Parts of a Computer",
+      "subject": "Computer Studies",
+      "grade": "Grade 7",
+      "topic": "Computer Hardware",
+      "image": "assets/images/resources/computer-parts.jpg",
+      "description": "Labeled diagram of a desktop computer showing monitor, CPU, keyboard, mouse, and internal components.",
+      "dateUploaded": "2026-06-22"
+    },
+    {
+      "id": "img-007",
+      "title": "Electric Circuit Diagram",
+      "subject": "Integrated Science",
+      "grade": "Grade 9",
+      "topic": "Electricity",
+      "image": "assets/images/resources/electric-circuit.jpg",
+      "description": "Diagram showing a simple electric circuit with battery, switch, bulb, and connecting wires.",
+      "dateUploaded": "2026-06-20"
+    },
+    {
+      "id": "img-008",
+      "title": "Color Wheel",
+      "subject": "Creative Arts",
+      "grade": "Grade 8",
+      "topic": "Visual Arts",
+      "image": "assets/images/resources/color-wheel.jpg",
+      "description": "Color wheel showing primary, secondary, and tertiary colors with warm and cool color sections.",
+      "dateUploaded": "2026-06-14"
+    },
+    {
+      "id": "img-009",
+      "title": "Soil Profile Layers",
+      "subject": "Agriculture",
+      "grade": "Grade 7",
+      "topic": "Soil Science",
+      "image": "assets/images/resources/soil-profile.jpg",
+      "description": "Cross-section diagram of soil profile showing topsoil, subsoil, parent rock, and bedrock layers.",
+      "dateUploaded": "2026-06-08"
+    },
+    {
+      "id": "img-010",
+      "title": "Water Cycle Diagram",
+      "subject": "Integrated Science",
+      "grade": "Grade 8",
+      "topic": "Water and Environment",
+      "image": "assets/images/resources/water-cycle.jpg",
+      "description": "Diagram illustrating the water cycle: evaporation, condensation, precipitation, collection, and transpiration.",
+      "dateUploaded": "2026-06-16"
+    }
+  ]
+}
