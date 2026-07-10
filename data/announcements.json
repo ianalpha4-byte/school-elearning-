@@ -49,18 +49,10 @@
       "important": false
     },
     {
-      "id": "ann-007",
-      "title": "Digital Learning Resources Now Available",
-      "content": "We are excited to announce the launch of our school's Digital Learning Resource Centre! Students can now access notes, revision papers, educational pictures, and assignments online through our website. Visit the Resources section to browse materials by grade and subject.",
-      "date": "2026-07-01",
-      "category": "Academic",
-      "important": true
-    },
-    {
       "important": false,
-      "id": "008",
-      "title": "pictures upload",
-      "content": "he Annual General Meeting for all parents and guardians will be held on Saturday, 25th May 2026, starting at 9:00 AM in the school hall. Agenda: academic progress report, school development plan, fee structure review, and election of PTA officials. All parents are encouraged to attend.",
+      "id": "007",
+      "title": "elearning",
+      "content": "ll students are expected to report for Term 2 on Monday, 19th May 2026. New students should come with their admission letters, birth certificates, and previous school leaving certificates. ",
       "category": "Academic",
       "date": "2026-07-10"
     }
