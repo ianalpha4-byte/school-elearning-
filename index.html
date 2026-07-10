@@ -82,20 +82,7 @@
           <i class="fa-solid fa-book"></i> View Notes
         </a>
       </div>
-      <div class="resource-stats">
-        <div class="resource-stat">
-          <div class="resource-stat__number" data-count="150">0</div>
-          <div class="resource-stat__label">Learning Resources</div>
-        </div>
-        <div class="resource-stat">
-          <div class="resource-stat__number" data-count="45">0</div>
-          <div class="resource-stat__label">Class Notes</div>
-        </div>
-        <div class="resource-stat">
-          <div class="resource-stat__number" data-count="8">0</div>
-          <div class="resource-stat__label">Subjects Covered</div>
-        </div>
-      </div>
+
     </div>
   </section>
 
@@ -197,27 +184,8 @@
         <p>Catch a glimpse of the vibrant learning environment at Utugi JSS.</p>
       </div>
       <div class="gallery-preview">
-        <div class="grid">
-          <div class="gallery-item animate-on-scroll">
-            <img src="assets/images/gallery/class-grade7.png" alt="Students learning in classroom" loading="lazy">
-            <div class="gallery-overlay"><span>Classroom Learning</span></div>
-          </div>
-          <div class="gallery-item animate-on-scroll">
-            <img src="assets/images/gallery/sports-football.png" alt="Sports activities" loading="lazy">
-            <div class="gallery-overlay"><span>Sports Day</span></div>
-          </div>
-          <div class="gallery-item animate-on-scroll" style="background:linear-gradient(135deg,#1a3a5c,#2d8f4e);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-heading);font-size:1.2rem;position:relative;overflow:hidden;">
-            <img src="assets/images/gallery/drama-festival.png" alt="School Events" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0.8;">
-            <span style="position:relative;z-index:1;background:rgba(0,0,0,0.5);padding:0.5rem 1rem;border-radius:var(--radius-md);"><i class="fa-solid fa-camera"></i> School Events</span>
-          </div>
-          <div class="gallery-item animate-on-scroll" style="background:linear-gradient(135deg,#2d8f4e,#f5a623);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-heading);font-size:1.2rem;position:relative;overflow:hidden;">
-            <img src="assets/images/gallery/admin-block.png" alt="Our Campus" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0.8;">
-            <span style="position:relative;z-index:1;background:rgba(0,0,0,0.5);padding:0.5rem 1rem;border-radius:var(--radius-md);"><i class="fa-solid fa-school"></i> Our Campus</span>
-          </div>
-          <div class="gallery-item animate-on-scroll" style="background:linear-gradient(135deg,#f5a623,#1a3a5c);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-heading);font-size:1.2rem;position:relative;overflow:hidden;">
-            <img src="assets/images/gallery/library.png" alt="Library" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:0.8;">
-            <span style="position:relative;z-index:1;background:rgba(0,0,0,0.5);padding:0.5rem 1rem;border-radius:var(--radius-md);"><i class="fa-solid fa-book-open"></i> Library</span>
-          </div>
+        <div class="grid" id="homeGalleryGrid">
+          <!-- Gallery loaded dynamically via JS -->
         </div>
       </div>
       <div style="text-align:center;margin-top:var(--space-2xl)">
@@ -347,6 +315,10 @@
       // Load announcements dynamically on homepage
       if (typeof loadHomeAnnouncements === 'function') {
         loadHomeAnnouncements();
+      }
+      // Load gallery dynamically on homepage
+      if (typeof loadHomeGallery === 'function') {
+        loadHomeGallery();
       }
     });
 

@@ -17,6 +17,13 @@ collections:
   - name: "content"
     label: "Website Data"
     files:
+      - label: "About Page"
+        name: "about"
+        file: "data/about.json"
+        description: "Manage the About Us page content"
+        fields:
+          - {label: "About Image", name: "aboutImage", widget: "image"}
+
       - label: "Learning Resources"
         name: "resources"
         file: "data/resources.json"

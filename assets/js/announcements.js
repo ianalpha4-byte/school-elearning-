@@ -162,10 +162,10 @@ async function loadHomeAnnouncements() {
 
   try {
     const announcements = await DataService.getAnnouncements();
-    // Get 3 most recent announcements
+    // Get 1 most recent announcement
     const recent = [...announcements]
       .sort((a, b) => new Date(b.date) - new Date(a.date))
-      .slice(0, 3);
+      .slice(0, 1);
 
     container.innerHTML = recent.map(ann => {
       const date = new Date(ann.date);

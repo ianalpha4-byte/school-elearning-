@@ -60,7 +60,7 @@
           <p>Today, Utugi JSS stands as a beacon of academic excellence, with a track record of producing well-rounded learners who excel in academics, sports, and the arts.</p>
         </div>
         <div class="animate-on-scroll">
-          <img src="../assets/images/hero/school-compound.png" alt="Utugi School Campus" style="border-radius:var(--radius-xl);box-shadow:var(--shadow-lg)" loading="lazy">
+          <img id="aboutHeroImage" src="../assets/images/hero/school-compound.png" alt="Utugi School Campus" style="border-radius:var(--radius-xl);box-shadow:var(--shadow-lg)" loading="lazy">
         </div>
       </div>
     </div>
@@ -243,5 +243,30 @@
 
   <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
   <script src="../assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        const response = await fetch('../data/about.json');
+        if (response.ok) {
+          const data = await response.json();
+          if (data.aboutImage) {
+            const img = document.getElementById('aboutHeroImage');
+            if (img) {
+              let src = data.aboutImage;
+              // Handle relative paths from pages directory
+              if (src.startsWith('assets/') || src.startsWith('uploads/')) {
+                src = '../' + src;
+              } else if (src.startsWith('/uploads/')) {
+                src = '..' + src;
+              }
+              img.src = src;
+            }
+          }
+        }
+      } catch (e) {
+        console.error("Failed to load about page image", e);
+      }
+    });
+  </script>
 </body>
 </html>

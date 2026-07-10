@@ -341,3 +341,28 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
+
+/**
+ * Homepage: Load latest gallery items dynamically
+ */
+async function loadHomeGallery() {
+  const container = document.getElementById('homeGalleryGrid');
+  if (!container) return;
+
+  try {
+    const gallery = await DataService.getGallery();
+    // Sort by date uploaded (newest first) and get 4 items
+    const recent = [...gallery]
+      .sort((a, b) => new Date(b.dateUploaded || 0) - new Date(a.dateUploaded || 0))
+      .slice(0, 4);
+
+    container.innerHTML = recent.map(item => `
+      <div class="gallery-item animate-on-scroll animated" style="display: block; opacity: 1; transform: translateY(0);">
+        <img src="${getAssetPath(item.image)}" alt="${item.title}" loading="lazy">
+        <div class="gallery-overlay"><span>${item.title}</span></div>
+      </div>
+    `).join('');
+  } catch (error) {
+    console.error('Failed to load home gallery:', error);
+  }
+}
