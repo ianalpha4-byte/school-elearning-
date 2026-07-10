@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "title": "Classroom Learning",
+      "image": "assets/images/gallery/class-grade7.png"
+    },
+    {
+      "title": "Sports Day",
+      "image": "assets/images/gallery/sports-football.png"
+    },
+    {
+      "title": "School Events",
+      "image": "assets/images/gallery/drama-festival.png"
+    },
+    {
+      "title": "Our Campus",
+      "image": "assets/images/gallery/admin-block.png"
+    }
+  ]
+}

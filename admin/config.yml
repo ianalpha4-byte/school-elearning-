@@ -24,6 +24,18 @@ collections:
         fields:
           - {label: "About Image", name: "aboutImage", widget: "image"}
 
+      - label: "School Life (Home Page)"
+        name: "school_life"
+        file: "data/school-life.json"
+        description: "Manage pictures shown in the School Life section on the Home Page"
+        fields:
+          - label: "Images"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+
       - label: "Learning Resources"
         name: "resources"
         file: "data/resources.json"

@@ -350,11 +350,13 @@ async function loadHomeGallery() {
   if (!container) return;
 
   try {
-    const gallery = await DataService.getGallery();
-    // Sort by date uploaded (newest first) and get 4 items
-    const recent = [...gallery]
-      .sort((a, b) => new Date(b.dateUploaded || 0) - new Date(a.dateUploaded || 0))
-      .slice(0, 4);
+    const response = await fetch('data/school-life.json');
+    if (!response.ok) return;
+    const data = await response.json();
+    const gallery = data.items || [];
+    
+    // Just display the items in the order they appear in CMS (up to 4)
+    const recent = gallery.slice(0, 4);
 
     container.innerHTML = recent.map(item => `
       <div class="gallery-item animate-on-scroll animated" style="display: block; opacity: 1; transform: translateY(0);">

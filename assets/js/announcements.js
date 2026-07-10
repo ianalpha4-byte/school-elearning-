@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // RENDER ANNOUNCEMENTS
   // ========================================
   function renderAnnouncements() {
+    if (!announcementsList) return;
     const filters = getCurrentFilters();
     const filtered = FilterEngine.apply(allAnnouncements, filters);
 
@@ -173,7 +174,7 @@ async function loadHomeAnnouncements() {
       const month = date.toLocaleDateString('en-KE', { month: 'short' });
 
       return `
-        <div class="card announcement-card animate-on-scroll">
+        <div class="card announcement-card animate-on-scroll animated" style="opacity: 1; transform: translateY(0);">
           <div class="announcement-date">
             <div class="day">${day}</div>
             <div class="month">${month}</div>
