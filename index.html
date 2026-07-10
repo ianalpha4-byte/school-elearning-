@@ -86,23 +86,7 @@
     </div>
   </section>
 
-  <!-- ========== ANNOUNCEMENTS ========== -->
-  <section class="section" id="announcements">
-    <div class="container">
-      <div class="section-header animate-on-scroll">
-        <h2>Latest Announcements</h2>
-        <p>Stay updated with the latest news and important dates from our school community.</p>
-      </div>
-      <div class="home-announcements-grid" id="homeAnnouncementsGrid">
-        <!-- Announcements loaded dynamically via JS -->
-      </div>
-      <div style="text-align:center; margin-top:var(--space-xl)">
-        <a href="announcements.html" class="btn btn-outline">View All Announcements</a>
-      </div>
-    </div>
-  </section>
 
-  <hr class="section-divider">
 
   <!-- ========== WHY CHOOSE US ========== -->
   <section class="section why-choose" id="whyChoose">
@@ -309,10 +293,6 @@
   
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      // Load announcements dynamically on homepage
-      if (typeof loadHomeAnnouncements === 'function') {
-        loadHomeAnnouncements();
-      }
       // Load gallery dynamically on homepage
       if (typeof loadHomeGallery === 'function') {
         loadHomeGallery();
