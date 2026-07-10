@@ -55,6 +55,14 @@
       "date": "2026-07-01",
       "category": "Academic",
       "important": true
+    },
+    {
+      "important": false,
+      "id": "008",
+      "title": "introduction of elearning",
+      "content": "you will be able to access notes and revision materials from your school website",
+      "category": "Academic",
+      "date": "2026-07-10"
     }
   ]
 }
