@@ -99,6 +99,13 @@
       "image": "assets/images/resources/water-cycle.jpg",
       "description": "Diagram illustrating the water cycle: evaporation, condensation, precipitation, collection, and transpiration.",
       "dateUploaded": "2026-06-16"
+    },
+    {
+      "title": "cars",
+      "subject": "modern",
+      "grade": "Grade 7",
+      "topic": "machinery",
+      "image": "/uploads/bmwm4.jfif"
     }
   ]
 }
