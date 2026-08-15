@@ -81,6 +81,13 @@
       "dateUploaded": "2026-06-14"
     },
     {
+      "title": "cars",
+      "subject": "modern",
+      "grade": "Grade 7",
+      "topic": "machinery",
+      "image": "/uploads/bmwm4.jfif"
+    },
+    {
       "id": "img-009",
       "title": "Soil Profile Layers",
       "subject": "Agriculture",
@@ -101,11 +108,11 @@
       "dateUploaded": "2026-06-16"
     },
     {
-      "title": "cars",
-      "subject": "modern",
-      "grade": "Grade 7",
-      "topic": "machinery",
-      "image": "/uploads/bmwm4.jfif"
+      "title": "Pastry ",
+      "subject": "Serving ",
+      "grade": "Grade 9",
+      "topic": "Delicacies ",
+      "image": "/uploads/171511.jpg"
     }
   ]
 }
