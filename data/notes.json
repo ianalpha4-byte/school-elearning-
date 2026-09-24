@@ -1,112 +1,16 @@
 {
   "items": [
     {
-      "subject": "Integrated Science",
-      "dateUploaded": "2026-06-10",
-      "topic": "Human Body Systems",
-      "fileType": "PDF",
-      "grade": "Grade 7",
-      "title": "Integrated Science — Human Body Systems",
-      "id": "note-001",
-      "file": "uploads/grade7/science-human-body.pdf",
-      "description": "Complete notes on all human body systems: digestive, respiratory, circulatory, excretory, nervous, and skeletal systems with labeled diagrams.",
-      "fileSize": "2.3 MB"
-    },
-    {
       "subject": "Mathematics",
-      "dateUploaded": "2026-06-12",
-      "topic": "Fractions and Decimals",
-      "fileType": "PDF",
+      "dateUploaded": "2026-09-24",
+      "topic": "all topics",
+      "fileType": "DOC",
       "grade": "Grade 7",
-      "title": "Mathematics — Fractions and Decimals",
-      "id": "note-002",
-      "file": "uploads/grade7/math-fractions-decimals.pdf",
-      "description": "Detailed notes on operations with fractions, converting fractions to decimals, and solving word problems involving fractions and decimals.",
-      "fileSize": "1.1 MB"
-    },
-    {
-      "subject": "English",
-      "dateUploaded": "2026-06-08",
-      "topic": "Grammar",
-      "fileType": "PDF",
-      "grade": "Grade 7",
-      "title": "English — Parts of Speech",
-      "id": "note-003",
-      "file": "uploads/grade7/english-parts-of-speech.pdf",
-      "description": "Notes covering all eight parts of speech: nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections with examples.",
-      "fileSize": "890 KB"
-    },
-    {
-      "subject": "Social Studies",
-      "dateUploaded": "2026-06-15",
-      "topic": "Government and Leadership",
-      "fileType": "PDF",
-      "grade": "Grade 8",
-      "title": "Social Studies — Government of Kenya",
-      "id": "note-004",
-      "file": "uploads/grade8/social-studies-government.pdf",
-      "description": "Notes on the structure of the Kenyan government: national and county governments, arms of government, and the Constitution of Kenya 2010.",
-      "fileSize": "1.5 MB"
-    },
-    {
-      "subject": "Kiswahili",
-      "dateUploaded": "2026-06-18",
-      "topic": "Sarufi",
-      "fileType": "PDF",
-      "grade": "Grade 8",
-      "title": "Kiswahili — Sarufi: Ngeli za Nomino",
-      "id": "note-005",
-      "file": "uploads/grade8/kiswahili-ngeli.pdf",
-      "description": "Maelezo kamili kuhusu ngeli za nomino katika lugha ya Kiswahili. Inajumuisha mifano na mazoezi ya kufanyia mazoezi.",
-      "fileSize": "780 KB"
-    },
-    {
-      "subject": "Integrated Science",
-      "dateUploaded": "2026-06-20",
-      "topic": "Electricity",
-      "fileType": "PDF",
-      "grade": "Grade 9",
-      "title": "Integrated Science — Electricity and Magnetism",
-      "id": "note-006",
-      "file": "uploads/grade9/science-electricity.pdf",
-      "description": "Notes on electric circuits, Ohm's law, series and parallel circuits, electromagnets, and practical applications of electricity.",
-      "fileSize": "2.0 MB"
-    },
-    {
-      "subject": "Agriculture",
-      "dateUploaded": "2026-06-22",
-      "topic": "Crop Husbandry",
-      "fileType": "DOCX",
-      "grade": "Grade 8",
-      "title": "Agriculture — Crop Production",
-      "id": "note-007",
-      "file": "uploads/grade8/agriculture-crop-production.docx",
-      "description": "Notes covering land preparation, planting, crop maintenance, harvesting, and post-harvest handling. Includes common crops grown in Kenya.",
-      "fileSize": "1.3 MB"
-    },
-    {
-      "subject": "Mathematics",
-      "dateUploaded": "2026-06-25",
-      "topic": "Algebra",
-      "fileType": "PDF",
-      "grade": "Grade 9",
-      "title": "Mathematics — Quadratic Equations",
-      "id": "note-008",
-      "file": "uploads/grade9/math-quadratic-equations.pdf",
-      "description": "Complete notes on solving quadratic equations by factorisation, completing the square, and using the quadratic formula. Includes worked examples.",
-      "fileSize": "1.0 MB"
-    },
-    {
-      "subject": "Creative Arts",
-      "dateUploaded": "2026-07-10",
-      "topic": "podcast",
-      "fileType": "PDF",
-      "grade": "Grade 9",
-      "title": "podcast",
-      "id": "009",
-      "file": "/uploads/teresia_koki_resume_updated.pdf",
-      "description": "social media notes on podcasts",
-      "fileSize": "2.5 MB"
+      "title": "full notes",
+      "id": "01",
+      "file": "/uploads/grd-7-maths-t1-2023-2024-teacher.co_.ke_.pdf",
+      "description": "covering grade 7 maths units plan for term 1\n",
+      "fileSize": "1.3"
     }
   ]
 }
