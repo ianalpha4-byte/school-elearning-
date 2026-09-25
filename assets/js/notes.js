@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderEmptyState() {
     return `
       <div class="empty-state">
-        <div class="empty-state__icon">📝</div>
+        <div class="empty-state__icon"><i class="fa-solid fa-file-pen"></i></div>
         <h3 class="empty-state__title">No Notes Found</h3>
         <p class="empty-state__text">Try changing your search or filter settings.</p>
         <button class="btn btn-primary" onclick="document.getElementById('filterClear').click()" style="margin-top: 1rem;">Clear All Filters</button>

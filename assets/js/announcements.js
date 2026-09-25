@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderEmptyState() {
     return `
       <div class="empty-state">
-        <div class="empty-state__icon">📢</div>
+        <div class="empty-state__icon"><i class="fa-solid fa-bullhorn"></i></div>
         <h3 class="empty-state__title">No Announcements Found</h3>
         <p class="empty-state__text">Try changing your search or filter settings.</p>
       </div>

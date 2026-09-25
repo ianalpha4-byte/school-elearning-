@@ -243,7 +243,7 @@ const Paginator = {
     let html = '';
 
     // Previous button
-    html += `<button class="pagination__btn pagination__btn--arrow" ${currentPage === 1 ? 'disabled' : ''} data-page="${currentPage - 1}" aria-label="Previous page">‹</button>`;
+    html += `<button class="pagination__btn pagination__btn--arrow" ${currentPage === 1 ? 'disabled' : ''} data-page="${currentPage - 1}" aria-label="Previous page"><i class="fa-solid fa-chevron-left"></i></button>`;
 
     // Page buttons
     const maxVisible = 5;
@@ -269,7 +269,7 @@ const Paginator = {
     }
 
     // Next button
-    html += `<button class="pagination__btn pagination__btn--arrow" ${currentPage === totalPages ? 'disabled' : ''} data-page="${currentPage + 1}" aria-label="Next page">›</button>`;
+    html += `<button class="pagination__btn pagination__btn--arrow" ${currentPage === totalPages ? 'disabled' : ''} data-page="${currentPage + 1}" aria-label="Next page"><i class="fa-solid fa-chevron-right"></i></button>`;
 
     container.innerHTML = html;
 
@@ -422,8 +422,8 @@ function getPlaceholderSVG(text, color = '#1a3a5c') {
   const encoded = encodeURIComponent(`
     <svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180">
       <rect fill="${color}" width="300" height="180" rx="8"/>
-      <text fill="rgba(255,255,255,0.3)" font-family="Arial,sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="150" y="90">${text || 'No Image'}</text>
-      <text fill="rgba(255,255,255,0.15)" font-family="Arial,sans-serif" font-size="40" text-anchor="middle" x="150" y="105">📄</text>
+      <path fill="rgba(255,255,255,0.15)" transform="translate(134, 45) scale(0.065)" d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128z"/>
+      <text fill="rgba(255,255,255,0.4)" font-family="Arial,sans-serif" font-size="13" font-weight="bold" text-anchor="middle" x="150" y="118">${text || 'No Image'}</text>
     </svg>
   `);
   return `data:image/svg+xml,${encoded}`;

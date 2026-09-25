@@ -1549,7 +1549,9 @@ p {
 }
 
 .icon-list li::before {
-  content: '✓';
+  content: '\f00c';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
   flex-shrink: 0;
   width: 24px;
   height: 24px;
@@ -1560,7 +1562,6 @@ p {
   align-items: center;
   justify-content: center;
   font-size: var(--fs-xs);
-  font-weight: 700;
 }
 
 /* Fee table */

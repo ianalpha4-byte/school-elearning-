@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderEmptyState() {
     return `
       <div class="empty-state" style="grid-column: 1 / -1;">
-        <div class="empty-state__icon">🖼️</div>
+        <div class="empty-state__icon"><i class="fa-regular fa-image"></i></div>
         <h3 class="empty-state__title">No Images Found</h3>
         <p class="empty-state__text">Try adjusting your search or filters.</p>
       </div>

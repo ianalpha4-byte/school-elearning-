@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const btn = contactForm.querySelector('button[type="submit"]');
       const originalText = btn?.textContent;
       if (btn) {
-        btn.textContent = '✓ Message Sent!';
+        btn.innerHTML = '<i class="fa-solid fa-check"></i> Message Sent!';
         btn.style.background = 'var(--success)';
         setTimeout(() => {
           btn.textContent = originalText;
